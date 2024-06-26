@@ -34,3 +34,41 @@ Utilisez le shortcode suivant pour afficher les exposants :
 
 1.  [exposant] - Affiche tous les exposants.
 2.  [exposant master_partner="true"] - Affiche uniquement les exposants où le champ masterPartner est défini à true.
+
+-----------------------------------
+# Exposant Plugin
+
+## Description
+
+The Exposant plugin allows you to create and manage a custom post type called "Exposant" in WordPress. It also adds a boolean custom field named "masterPartner" for each exposant. Two shortcodes are available to display exposants.
+
+## Features
+
+- Custom post type "Exposant".
+- Boolean custom field "masterPartner" for each exposant.
+- Shortcode to display all exposants.
+- Shortcode to display only exposants marked as "masterPartner".
+
+## Installation
+
+1. Download the plugin.
+2. Unzip the downloaded file.
+3. Upload the `list-exposant` folder to the `wp-content/plugins` directory of your WordPress installation.
+4. Activate the plugin from the "Plugins" menu in WordPress.
+
+## Usage
+
+### Custom Post Type
+
+Once activated, a new post type "Exposant" will be available in the WordPress admin.
+
+### Custom Field
+
+When adding or editing an exposant, you will see a checkbox labeled "Partenaire principal". Check this box to mark the exposant as a "masterPartner".
+
+### Shortcodes
+
+Use the following shortcodes to display exposants:
+
+1. `[exposant]` - Displays all exposants.
+2. `[exposant master_partner="true"]` - Displays only exposants where the masterPartner field is set to true.
