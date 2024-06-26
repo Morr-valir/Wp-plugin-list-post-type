@@ -35,6 +35,10 @@ Utilisez le shortcode suivant pour afficher les exposants :
 1.  [exposant] - Affiche tous les exposants.
 2.  [exposant master_partner="true"] - Affiche uniquement les exposants où le champ masterPartner est défini à true.
 
+## Contribution
+
+Les contributions sont les bienvenues ! Si vous avez des suggestions d'améliorations ou souhaitez ajouter de nouvelles fonctionnalités, n'hésitez pas à soumettre vos propositions. Toutes les améliorations sont grandement appréciées
+
 -----------------------------------
 # Exposant Plugin
 
@@ -72,3 +76,7 @@ Use the following shortcodes to display exposants:
 
 1. `[exposant]` - Displays all exposants.
 2. `[exposant master_partner="true"]` - Displays only exposants where the masterPartner field is set to true.
+
+## Contribution
+
+Contributions are welcome! If you have suggestions for improvements or want to add new features, feel free to submit your proposals. All enhancements are greatly appreciated.
